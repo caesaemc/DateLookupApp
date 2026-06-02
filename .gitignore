@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.vite/
+.codex-logs/
+coverage/
+*.log
+.env
+.env.*
+!.env.example
+backend/data/*.sqlite
+backend/data/*.sqlite-*
+backend/backend/data/*.sqlite
+backend/backend/data/*.sqlite-*
+*.tsbuildinfo
