@@ -13,7 +13,7 @@
 ## 技术栈
 
 - Frontend: React, TypeScript, Vite
-- Backend: Node.js, Express, TypeScript, SQLite
+- Backend: Java 17, Spring Boot, SQLite
 
 ## 本地运行
 
@@ -23,6 +23,12 @@ npm run dev
 ```
 
 前端默认运行在 `http://localhost:5173`，后端默认运行在 `http://localhost:4000`。
+
+后端也可以单独运行：
+
+```bash
+mvn -f backend/pom.xml spring-boot:run
+```
 
 ## 构建与测试
 

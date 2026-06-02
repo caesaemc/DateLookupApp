@@ -3,6 +3,7 @@ dist/
 .vite/
 .codex-logs/
 coverage/
+backend/target/
 *.log
 .env
 .env.*
