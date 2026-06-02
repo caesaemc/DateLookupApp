@@ -10,13 +10,20 @@
 open ios/DateLookupApp/DateLookupApp.xcodeproj
 ```
 
+或直接用命令行测试：
+
+```bash
+cd ios/DateLookupApp
+xcodebuild test -project DateLookupApp.xcodeproj -scheme DateLookupApp -destination 'platform=iOS Simulator,name=iPhone 16'
+```
+
 运行前先启动后端：
 
 ```bash
 npm run dev:backend
 ```
 
-默认 API 地址是 `http://localhost:4000`。如果在真机调试，需要把 `APIClient.defaultBaseURL` 改成局域网 IP，例如 `http://192.168.1.10:4000`。
+默认 API 地址在 `DateLookupApp/Info.plist` 的 `API_BASE_URL` 中，当前为 `http://localhost:4000`。如果在真机调试，需要改成电脑的局域网 IP，例如 `http://192.168.1.10:4000`。
 
 ## MVP 页面
 
@@ -24,4 +31,3 @@ npm run dev:backend
 - 每日详情分类卡片
 - 快速记录表单
 - 月度统计
-

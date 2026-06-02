@@ -6,7 +6,7 @@ struct APIClient {
     var deleteRecord: (_ id: String) async throws -> Void
     var fetchStats: (_ month: String) async throws -> MonthStats
 
-    static let defaultBaseURL = URL(string: "http://localhost:4000")!
+    static let defaultBaseURL = AppConfiguration.apiBaseURL
 
     static let live = APIClient(baseURL: defaultBaseURL)
 

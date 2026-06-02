@@ -42,6 +42,13 @@ open ios/DateLookupApp/DateLookupApp.xcodeproj
 
 在 iOS 模拟器里访问本机后端可使用默认 `http://localhost:4000`。真机调试时，把 `ios/DateLookupApp/DateLookupApp/Services/APIClient.swift` 里的 `defaultBaseURL` 改成电脑的局域网地址。
 
+Mac 上可以直接运行 iOS 测试：
+
+```bash
+cd ios/DateLookupApp
+xcodebuild test -project DateLookupApp.xcodeproj -scheme DateLookupApp -destination 'platform=iOS Simulator,name=iPhone 16'
+```
+
 ## 构建与测试
 
 ```bash
