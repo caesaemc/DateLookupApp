@@ -19,6 +19,12 @@
 
 ## 本地运行
 
+Mac 上运行 iOS App 请优先看：
+
+```text
+docs/mac-ios-runbook.md
+```
+
 后端和网页原型：
 
 ```bash
