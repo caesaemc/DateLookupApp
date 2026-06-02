@@ -4,6 +4,7 @@
 
 ## 功能
 
+- 原生 iOS SwiftUI MVP，包含月历、每日详情、快速记录和月度统计
 - 月视图日历，展示每日记录摘要
 - 每日详情，按运动、饮食、记账、Tips 分类展示
 - 新增记录，支持时间、数值、备注与心情/强度字段
@@ -13,9 +14,12 @@
 ## 技术栈
 
 - Frontend: React, TypeScript, Vite
+- iOS: SwiftUI, XCTest
 - Backend: Java 17, Spring Boot, SQLite
 
 ## 本地运行
+
+后端和网页原型：
 
 ```bash
 npm install
@@ -29,6 +33,14 @@ npm run dev
 ```bash
 mvn -f backend/pom.xml spring-boot:run
 ```
+
+iOS App：
+
+```bash
+open ios/DateLookupApp/DateLookupApp.xcodeproj
+```
+
+在 iOS 模拟器里访问本机后端可使用默认 `http://localhost:4000`。真机调试时，把 `ios/DateLookupApp/DateLookupApp/Services/APIClient.swift` 里的 `defaultBaseURL` 改成电脑的局域网地址。
 
 ## 构建与测试
 

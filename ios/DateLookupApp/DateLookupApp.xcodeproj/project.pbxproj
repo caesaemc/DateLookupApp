@@ -1,0 +1,187 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100000000000000000000001 /* DateLookupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000001 /* DateLookupApp.swift */; };
+		100000000000000000000002 /* RecordCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000002 /* RecordCategory.swift */; };
+		100000000000000000000003 /* CalendarRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000003 /* CalendarRecord.swift */; };
+		100000000000000000000004 /* MonthStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000004 /* MonthStats.swift */; };
+		100000000000000000000005 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000005 /* APIClient.swift */; };
+		100000000000000000000006 /* CalendarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000006 /* CalendarStore.swift */; };
+		100000000000000000000007 /* DateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000007 /* DateFormatting.swift */; };
+		100000000000000000000008 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000008 /* Theme.swift */; };
+		100000000000000000000009 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000009 /* ContentView.swift */; };
+		10000000000000000000000A /* MonthCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000A /* MonthCalendarView.swift */; };
+		10000000000000000000000B /* CategoryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000B /* CategoryPicker.swift */; };
+		10000000000000000000000C /* DayDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000C /* DayDetailView.swift */; };
+		10000000000000000000000D /* RecordFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000D /* RecordFormView.swift */; };
+		10000000000000000000000E /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000E /* StatsView.swift */; };
+		10000000000000000000000F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000F /* Assets.xcassets */; };
+		100000000000000000000010 /* CalendarGridBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000010 /* CalendarGridBuilderTests.swift */; };
+		100000000000000000000011 /* RecordSummaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000011 /* RecordSummaryTests.swift */; };
+		100000000000000000000012 /* MonthStatsDecodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000014 /* MonthStatsDecodingTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		300000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 400000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 500000000000000000000001;
+			remoteInfo = DateLookupApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		200000000000000000000001 /* DateLookupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateLookupApp.swift; sourceTree = "<group>"; };
+		200000000000000000000002 /* RecordCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCategory.swift; sourceTree = "<group>"; };
+		200000000000000000000003 /* CalendarRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarRecord.swift; sourceTree = "<group>"; };
+		200000000000000000000004 /* MonthStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthStats.swift; sourceTree = "<group>"; };
+		200000000000000000000005 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		200000000000000000000006 /* CalendarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarStore.swift; sourceTree = "<group>"; };
+		200000000000000000000007 /* DateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatting.swift; sourceTree = "<group>"; };
+		200000000000000000000008 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		200000000000000000000009 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		20000000000000000000000A /* MonthCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthCalendarView.swift; sourceTree = "<group>"; };
+		20000000000000000000000B /* CategoryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPicker.swift; sourceTree = "<group>"; };
+		20000000000000000000000C /* DayDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailView.swift; sourceTree = "<group>"; };
+		20000000000000000000000D /* RecordFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordFormView.swift; sourceTree = "<group>"; };
+		20000000000000000000000E /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		20000000000000000000000F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		200000000000000000000010 /* CalendarGridBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarGridBuilderTests.swift; sourceTree = "<group>"; };
+		200000000000000000000011 /* RecordSummaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSummaryTests.swift; sourceTree = "<group>"; };
+		200000000000000000000012 /* DateLookupApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateLookupApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		200000000000000000000013 /* DateLookupAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateLookupAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		200000000000000000000014 /* MonthStatsDecodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthStatsDecodingTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		600000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		600000000000000000000002 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		700000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				700000000000000000000002 /* DateLookupApp */,
+				700000000000000000000009 /* DateLookupAppTests */,
+				70000000000000000000000A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		700000000000000000000002 /* DateLookupApp */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000001 /* DateLookupApp.swift */,
+				700000000000000000000003 /* Models */,
+				700000000000000000000004 /* Services */,
+				700000000000000000000005 /* Stores */,
+				700000000000000000000006 /* Utilities */,
+				700000000000000000000007 /* Design */,
+				700000000000000000000008 /* Views */,
+				20000000000000000000000F /* Assets.xcassets */,
+			);
+			path = DateLookupApp;
+			sourceTree = "<group>";
+		};
+		700000000000000000000003 /* Models */ = {isa = PBXGroup; children = (200000000000000000000002, 200000000000000000000003, 200000000000000000000004); path = Models; sourceTree = "<group>"; };
+		700000000000000000000004 /* Services */ = {isa = PBXGroup; children = (200000000000000000000005); path = Services; sourceTree = "<group>"; };
+		700000000000000000000005 /* Stores */ = {isa = PBXGroup; children = (200000000000000000000006); path = Stores; sourceTree = "<group>"; };
+		700000000000000000000006 /* Utilities */ = {isa = PBXGroup; children = (200000000000000000000007); path = Utilities; sourceTree = "<group>"; };
+		700000000000000000000007 /* Design */ = {isa = PBXGroup; children = (200000000000000000000008); path = Design; sourceTree = "<group>"; };
+		700000000000000000000008 /* Views */ = {isa = PBXGroup; children = (200000000000000000000009, 20000000000000000000000A, 20000000000000000000000B, 20000000000000000000000C, 20000000000000000000000D, 20000000000000000000000E); path = Views; sourceTree = "<group>"; };
+		700000000000000000000009 /* DateLookupAppTests */ = {isa = PBXGroup; children = (200000000000000000000010, 200000000000000000000011, 200000000000000000000014); path = DateLookupAppTests; sourceTree = "<group>"; };
+		70000000000000000000000A /* Products */ = {isa = PBXGroup; children = (200000000000000000000012, 200000000000000000000013); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		500000000000000000000001 /* DateLookupApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900000000000000000000001 /* Build configuration list for PBXNativeTarget "DateLookupApp" */;
+			buildPhases = (800000000000000000000001, 600000000000000000000001, 800000000000000000000002);
+			buildRules = ();
+			dependencies = ();
+			name = DateLookupApp;
+			productName = DateLookupApp;
+			productReference = 200000000000000000000012 /* DateLookupApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		500000000000000000000002 /* DateLookupAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900000000000000000000002 /* Build configuration list for PBXNativeTarget "DateLookupAppTests" */;
+			buildPhases = (800000000000000000000003, 600000000000000000000002);
+			buildRules = ();
+			dependencies = (A00000000000000000000001 /* PBXTargetDependency */);
+			name = DateLookupAppTests;
+			productName = DateLookupAppTests;
+			productReference = 200000000000000000000013 /* DateLookupAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		400000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					500000000000000000000001 = {CreatedOnToolsVersion = 16.0;};
+					500000000000000000000002 = {CreatedOnToolsVersion = 16.0; TestTargetID = 500000000000000000000001;};
+				};
+			};
+			buildConfigurationList = 900000000000000000000003 /* Build configuration list for PBXProject "DateLookupApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base, zh-Hans);
+			mainGroup = 700000000000000000000001;
+			productRefGroup = 70000000000000000000000A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (500000000000000000000001, 500000000000000000000002);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		800000000000000000000002 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (10000000000000000000000F); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		800000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (100000000000000000000001, 100000000000000000000002, 100000000000000000000003, 100000000000000000000004, 100000000000000000000005, 100000000000000000000006, 100000000000000000000007, 100000000000000000000008, 100000000000000000000009, 10000000000000000000000A, 10000000000000000000000B, 10000000000000000000000C, 10000000000000000000000D, 10000000000000000000000E);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800000000000000000000003 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (100000000000000000000010, 100000000000000000000011, 100000000000000000000012); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A00000000000000000000001 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = 500000000000000000000001 /* DateLookupApp */; targetProxy = 300000000000000000000001 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B00000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE; CLANG_CXX_LANGUAGE_STANDARD = "gnu++20"; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_ENABLE_OBJC_WEAK = YES; CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES; CLANG_WARN_BOOL_CONVERSION = YES; CLANG_WARN_COMMA = YES; CLANG_WARN_CONSTANT_CONVERSION = YES; CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES; CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR; CLANG_WARN_DOCUMENTATION_COMMENTS = YES; CLANG_WARN_EMPTY_BODY = YES; CLANG_WARN_ENUM_CONVERSION = YES; CLANG_WARN_INFINITE_RECURSION = YES; CLANG_WARN_INT_CONVERSION = YES; CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES; CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES; CLANG_WARN_OBJC_LITERAL_CONVERSION = YES; CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR; CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES; CLANG_WARN_RANGE_LOOP_ANALYSIS = YES; CLANG_WARN_STRICT_PROTOTYPES = YES; CLANG_WARN_SUSPICIOUS_MOVE = YES; CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE; CLANG_WARN_UNREACHABLE_CODE = YES; CLANG_WARN__DUPLICATE_METHOD_MATCH = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_STRICT_OBJC_MSGSEND = YES; ENABLE_TESTABILITY = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_DYNAMIC_NO_PIC = NO; GCC_NO_COMMON_BLOCKS = YES; GCC_OPTIMIZATION_LEVEL = 0; GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)"); GCC_WARN_64_TO_32_BIT_CONVERSION = YES; GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR; GCC_WARN_UNDECLARED_SELECTOR = YES; GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE; GCC_WARN_UNUSED_FUNCTION = YES; GCC_WARN_UNUSED_VARIABLE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE; MTL_FAST_MATH = YES; ONLY_ACTIVE_ARCH = YES; SDKROOT = iphoneos; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+		B00000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE; CLANG_CXX_LANGUAGE_STANDARD = "gnu++20"; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_ENABLE_OBJC_WEAK = YES; CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES; CLANG_WARN_BOOL_CONVERSION = YES; CLANG_WARN_COMMA = YES; CLANG_WARN_CONSTANT_CONVERSION = YES; CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES; CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR; CLANG_WARN_DOCUMENTATION_COMMENTS = YES; CLANG_WARN_EMPTY_BODY = YES; CLANG_WARN_ENUM_CONVERSION = YES; CLANG_WARN_INFINITE_RECURSION = YES; CLANG_WARN_INT_CONVERSION = YES; CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES; CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES; CLANG_WARN_OBJC_LITERAL_CONVERSION = YES; CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR; CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES; CLANG_WARN_RANGE_LOOP_ANALYSIS = YES; CLANG_WARN_STRICT_PROTOTYPES = YES; CLANG_WARN_SUSPICIOUS_MOVE = YES; CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE; CLANG_WARN_UNREACHABLE_CODE = YES; CLANG_WARN__DUPLICATE_METHOD_MATCH = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_NS_ASSERTIONS = NO; ENABLE_STRICT_OBJC_MSGSEND = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_NO_COMMON_BLOCKS = YES; GCC_WARN_64_TO_32_BIT_CONVERSION = YES; GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR; GCC_WARN_UNDECLARED_SELECTOR = YES; GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE; GCC_WARN_UNUSED_FUNCTION = YES; GCC_WARN_UNUSED_VARIABLE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; MTL_ENABLE_DEBUG_INFO = NO; MTL_FAST_MATH = YES; SDKROOT = iphoneos; SWIFT_COMPILATION_MODE = wholemodule; VALIDATE_PRODUCT = YES; }; name = Release; };
+		B00000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_ACCENT_COLOR_NAME = AccentColor; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_ASSET_PATHS = ""; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "清爽日历"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity"; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait"; MARKETING_VERSION = 0.1.0; PRODUCT_BUNDLE_IDENTIFIER = com.caesaemc.DateLookupApp; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+		B00000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_ACCENT_COLOR_NAME = AccentColor; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_ASSET_PATHS = ""; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "清爽日历"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity"; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait"; MARKETING_VERSION = 0.1.0; PRODUCT_BUNDLE_IDENTIFIER = com.caesaemc.DateLookupApp; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+		B00000000000000000000005 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; MARKETING_VERSION = 0.1.0; PRODUCT_BUNDLE_IDENTIFIER = com.caesaemc.DateLookupAppTests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateLookupApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DateLookupApp"; }; name = Debug; };
+		B00000000000000000000006 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; MARKETING_VERSION = 0.1.0; PRODUCT_BUNDLE_IDENTIFIER = com.caesaemc.DateLookupAppTests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateLookupApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DateLookupApp"; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		900000000000000000000001 /* Build configuration list for PBXNativeTarget "DateLookupApp" */ = {isa = XCConfigurationList; buildConfigurations = (B00000000000000000000003, B00000000000000000000004); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		900000000000000000000002 /* Build configuration list for PBXNativeTarget "DateLookupAppTests" */ = {isa = XCConfigurationList; buildConfigurations = (B00000000000000000000005, B00000000000000000000006); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		900000000000000000000003 /* Build configuration list for PBXProject "DateLookupApp" */ = {isa = XCConfigurationList; buildConfigurations = (B00000000000000000000001, B00000000000000000000002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 400000000000000000000001 /* Project object */;
+}
